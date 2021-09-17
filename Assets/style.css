@@ -17,6 +17,12 @@ a {
   font-weight: 500;
   font-size: 20px;
   color: var(--sea);
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-underline-offset: 9px;
   text-decoration: underline;
 }
 
@@ -26,6 +32,7 @@ header {
   align-items: center;
   padding: 10px 10px;
   background-color: var(--back);
+  height: 57px;
 }
 header h1 {
   font-size: 2em;
@@ -42,12 +49,13 @@ header h1 {
   display: inline;
   padding: 10px;
 }
+
 .back-color {
   position: absolute;
   left: 0;
   width: 300px;
   background-color: var(--sea);
-  height: 50px;
+  height: 40px;
   color: var(--sea);
 }
 
@@ -67,4 +75,22 @@ header h1 {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+a:hover {
+  color: white;
+  transition: 0.5s;
+}
+a:active {
+  color: rgb(230, 227, 227);
+}
+section {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  height: 200px;
+
+}
+.about {
+    display: flex;
 }

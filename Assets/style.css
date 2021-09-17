@@ -1,41 +1,70 @@
 * {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
 
-    padding: 0px;
-    margin: 0px;
+:root {
+  --back: rgb(79, 81, 82);
+  --black: rgb(63, 61, 61);
+  --sea: rgb(146, 245, 245);
+  --white: white;
 }
-:root{
-    --back: rgb(79, 81, 82);
-    --black: rgb(63, 61, 61);
-    --sea: rgb(130, 248, 248);
-}
-body {
-    font-family: Arial, Helvetica, sans-serif;
+
+li,
+a {
+  font-family: Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--sea);
+  text-decoration: underline;
 }
 
 header {
-    height: 80px;
-    background-color: var(--back);
-    display: flex;
-    align-items: center;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: var(--back);
 }
-
-/* header h1 style for the top left logo */
-
 header h1 {
-    color:var(--black);
-    font-size: 50px;
-    font-weight: 600;
-    margin: 10px 10px 10px 0px;
-    background-color: var(--sea);
-    padding:  5px 5px 5px 40px;
-    
-    
-   
+  font-size: 2em;
+  color: var(--black);
+  margin-left: 80px;
+  padding: 15px 0px 15px 0px;
+  z-index: 1;
 }
 
+.links {
+  margin-right: 200px;
+}
+.links li {
+  display: inline;
+  padding: 10px;
+}
+.back-color {
+  position: absolute;
+  left: 0;
+  width: 300px;
+  background-color: var(--sea);
+  height: 50px;
+  color: var(--sea);
+}
 
-a {
-    color: var(--sea);
-    text-decoration: none;
+/* main background image style */
+
+.back-img {
+  height: 500px;
+  width: 100%;
+  background-color: violet;
+  background: url(back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+}
+
+.text-box {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }

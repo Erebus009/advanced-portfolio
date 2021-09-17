@@ -1,0 +1,25 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --back: rgb(45, 109, 206);
+    --white: #fff;
+}
+
+header {
+    height: 80px;
+    background-color: var(--back);
+    display: flex;
+    
+}
+header h1 {
+    color:var(--white)
+}
+
+header .links{
+    display: flex;
+    float: right;
+    color: var(--white);
+}

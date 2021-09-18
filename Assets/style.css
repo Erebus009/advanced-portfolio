@@ -20,6 +20,7 @@
 body {
   padding: 0px;
   margin: 0px;
+  z-index: -5;
 }
 
 li,
@@ -54,12 +55,17 @@ header h1 {
   z-index: 1;
 }
 
-.links {
-  position: relative;
-  margin-right: 150px;
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+
+  list-style: none;
+  margin: 0;
+  margin-right: 100px;
 }
 
-.links li {
+.nav li {
   display: inline;
   padding: 10px;
 }
@@ -111,37 +117,98 @@ a:active {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  width: 70vw;
+  width: 90vw;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 90px;
 }
 
 /* Row css affects the about me section */
 .row1 h2 {
   font-size: 4em;
   width: 10%;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .row2 {
   border-left: var(--back) solid 4px;
-  padding: 15px;
+  padding: 0px 3%;
   font-size: 1.2em;
 }
 
 /* Work section affects the images and 2nd section row on main page */
+.content-work {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 90px;
+}
 
-.work-header{
+.work-header {
   font-size: 4em;
   width: 10%;
-  margin-right: 20px;
-
-}
-.work-images{
-
+  margin-right: 60px;
 }
 
-img {
-  border: solid 1px black;
+.work-img-contain {
+  padding: 0px 3%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-left: var(--back) 4px solid;
+  justify-content: center;
+  align-items: center;
+}
+.work-images img {
+  max-width: 100%;
+}
+.img-card {
+  flex-basis: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
+/* first img in work showcase */
+
+.first {
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+}
+
+
+.contact-container {
+
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 60px;
+  
+
+}
+.contact-info{
+  padding: 0px 3%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-left: var(--back) 4px solid;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+
+.contact-header{
+  font-size: 4em;
+  width: 10%;
+  margin-right: 30px;
+  
+  
+  
+
+  
 }

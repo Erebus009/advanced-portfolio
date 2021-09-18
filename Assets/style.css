@@ -105,6 +105,8 @@ a:active {
   color: rgb(230, 227, 227);
 }
 
+/* Div container box = content */
+
 .content {
   display: flex;
   justify-content: space-between;

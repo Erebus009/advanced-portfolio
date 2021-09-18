@@ -100,6 +100,8 @@ header h1 {
   color: rgb(0, 0, 0);
   font-size: 2rem;
   background-color: var(--sea);
+  padding: 2px;
+  font-weight: 300;
 }
 
 a:hover {
@@ -126,93 +128,57 @@ a:active {
 .row1 h2 {
   font-size: 4em;
   width: 10%;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .row2 {
   border-left: var(--back) solid 4px;
-  padding: 0px 3%;
+  padding: 0px 1.2%;
   font-size: 1.2em;
 }
 
 /* Work section affects the images and 2nd section row on main page */
-.content-work {
-  display: flex;
-  flex-direction: row;
-  width: 90vw;
-  margin: 0 auto;
-  margin-top: 90px;
-}
 
-.work-header {
-  font-size: 4em;
-  width: 10%;
-  margin-right: 60px;
-}
 
-.work-img-contain {
-  border-left: var(--back) 4px solid;
+
+
+
+.work-items {
   display: flex;
-  flex-direction: row;
+  height: auto;
+  width: 100vw;
+  border-left: 4px solid var(--back);
+  margin-left: 20px;
   flex-wrap: wrap;
-  
-}
-/* work showcase boxes */
-.box {
-  width: 100;
-}
-
-
-.work-images img {
-  max-width: 100%;
-}
-.img-card {
-  flex-basis: 100%;
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-/* first img in work showcase */
-
-.first {
-  width: 1000px;
-  height: 600px;
-  margin: auto;
-}
-
-/* Start of contact section */ 
-.contact-container {
-
-  display: flex;
-  flex-direction: row;
-  width: 90vw;
-  margin: 0 auto;
-  margin-top: 60px;
-  
-
-}
-.contact-info{
-  padding: 0px 3%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border-left: var(--back) 4px solid;
   justify-content: center;
   align-items: center;
-  
+  flex-direction: row;
 
 }
 
+.col1 {
+  flex: 1 1 60%;
+  background-color: red;
+  height: 500px;
+  border: 1px solid black;
+  background-image: url(card.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 20px;
+}
 
-.contact-header{
-  font-size: 4em;
-  width: 10%;
-  margin-right: 30px;
-  
-  
-  
+.col {
+  flex: 1 1 45%;
+  background-color: red;
+  height: 200px;
+  border: 1px solid black;
+  background-image: url(card.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 2%;
+
 
   
 }

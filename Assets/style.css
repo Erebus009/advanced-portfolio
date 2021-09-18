@@ -151,14 +151,18 @@ a:active {
 }
 
 .work-img-contain {
-  padding: 0px 3%;
+  border-left: var(--back) 4px solid;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border-left: var(--back) 4px solid;
-  justify-content: center;
-  align-items: center;
+  
 }
+/* work showcase boxes */
+.box {
+  width: 100;
+}
+
+
 .work-images img {
   max-width: 100%;
 }
@@ -178,7 +182,7 @@ a:active {
   margin: auto;
 }
 
-
+/* Start of contact section */ 
 .contact-container {
 
   display: flex;

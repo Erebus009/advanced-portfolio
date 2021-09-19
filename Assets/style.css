@@ -113,7 +113,7 @@ a:active {
   color: rgb(230, 227, 227);
 }
 
-/* Div container box = content */
+/*  container box for about me section */
 
 .content {
   display: flex;
@@ -139,10 +139,6 @@ a:active {
 
 /* Work section affects the images and 2nd section row on main page */
 
-
-
-
-
 .work-items {
   display: flex;
   height: auto;
@@ -153,12 +149,10 @@ a:active {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-
 }
 
 .col1 {
-  flex: 1 1 60%;
-  background-color: red;
+  flex: 1 1 100%;
   height: 500px;
   border: 1px solid black;
   background-image: url(card.jpg);
@@ -169,50 +163,61 @@ a:active {
 }
 
 .col {
-  flex: 1 1 45%;
-  background-color: red;
-  height: 200px;
+  flex: 1 0 40%;
   border: 1px solid black;
   background-image: url(card.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: 20px;
   margin-top: 10px;
-  padding: 2%;
   border: 3px solid var(--sea);
-
+  flex-shrink: 0;
 }
-.project-info  {
+.project-info {
   background-color: var(--sea);
-  position: relative;
+  position: sticky;
   bottom: 0px;
   z-index: 3;
-  width: 210px;
-  margin-top: 350px;
-  padding: 5px;
-  
-
-  
-
+  width: 150px;
+  margin-top: 400px;
+  padding: 6px;
 }
-.inside-wrapper {
-  height: 500px;
-  width: 200px;
+.project-info-2 {
+  flex: 1 1 0%;
+  background-color: var(--sea);
+  position: sticky;
+  bottom: 0px;
   z-index: 3;
-  background-color: red;
+  width: 150px;
+  margin-top: 60px;
+  position: sticky;
+  margin-bottom: 10px;
+  padding: 6px;
 }
+
 .text-overlay {
   font-size: 2em;
   padding: 5px;
   text-align: left;
   font-weight: 600;
-  color: rgb(24, 23, 23)
+  color: rgb(24, 23, 23);
 }
 .code-info {
   text-align: left;
-  margin-left: 6px;
+  margin-left: 7px;
   font-size: 13px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.project-info-2 {
+  flex: 1 1 0%;
+  background-color: var(--sea);
+  position: sticky;
+  bottom: 0px;
+  z-index: 3;
+  width: 150px;
+  margin-top: 60px;
+  position: sticky;
+  margin-bottom: 10px;
+  padding: 4px;
 }

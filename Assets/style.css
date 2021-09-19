@@ -308,3 +308,76 @@ a:active {
 .spacer2 {
   margin-left: 117px;
 }
+
+@media screen and (min-width:998px){
+
+  .top-masterhead {
+    display: none;
+  }
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:997px){
+
+  .back-color {
+    display: none;
+  }
+  .top-masterhead {
+    font-size: 5em;
+    height: 100px;
+    width: 100%;
+    z-index: 3;
+    background-color: var(--sea);
+    text-align: center;
+    line-height: 100px;
+    color: var(--back);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+  }
+  .top-masterhead h1 {
+    position: relative;
+    left: 35px;
+  }
+
+
+
+  header h1 {
+    display: none;
+  }
+  header {
+    justify-content: center;
+    width: 100%;
+    
+  }
+  nav li  a {
+    text-decoration: none;
+    border-bottom: solid 4px var(--sea);
+    padding-bottom: 8px;
+  }
+  nav li  a:hover {
+    color: white;
+    border-bottom:solid white 4px;
+  }git 
+
+  nav li {
+    position: relative;
+    left: 55px;
+    text-decoration: none;
+
+
+   
+  }
+    .text-box {
+      font-size: 3em;
+      right: 30px;
+    }
+}
+

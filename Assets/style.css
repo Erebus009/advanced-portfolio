@@ -180,11 +180,10 @@ a:active {
 }
 .contact-items {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   flex-shrink: 0;
   flex-wrap: wrap;
   flex: 1 0 100%;
-  
 }
 .row-contact-2 {
   display: flex;
@@ -309,23 +308,13 @@ a:active {
   margin-left: 117px;
 }
 
-@media screen and (min-width:998px){
-
+@media screen and (min-width: 998px) {
   .top-masterhead {
     display: none;
   }
-
-
-
-
 }
 
-
-
-
-
-@media screen and (max-width:997px){
-
+@media screen and (max-width: 997px) {
   .back-color {
     display: none;
   }
@@ -347,37 +336,62 @@ a:active {
     left: 35px;
   }
 
-
-
   header h1 {
     display: none;
   }
   header {
     justify-content: center;
     width: 100%;
-    
   }
-  nav li  a {
+  nav li a {
     text-decoration: none;
     border-bottom: solid 4px var(--sea);
     padding-bottom: 8px;
   }
-  nav li  a:hover {
+  nav li a:hover {
     color: white;
-    border-bottom:solid white 4px;
-  }git 
+    border-bottom: solid white 4px;
+  }
 
   nav li {
     position: relative;
     left: 55px;
     text-decoration: none;
-
-
-   
   }
-    .text-box {
-      font-size: 3em;
-      right: 30px;
-    }
-}
+  .text-box {
+    font-size: 3em;
+    right: 30px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    width: 90vw;
+    border-right: white;
+  }
+  .row1 {
+    text-align: left;
+    margin-left: 60px;
+    color: var(--back);
+    padding-bottom: 10px;
+    border-right: none;
+  }
+  .row2 {
+    border-top: solid 4px var(--back);
+    border-right: white;
+    width: auto;
+    text-align: left;
+  }
+  .spacer {
+    margin: 0px;
+  }
+  
 
+
+
+
+
+
+
+
+}

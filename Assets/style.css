@@ -125,6 +125,10 @@ a:active {
 }
 
 /* Row css affects the about me section */
+.row1 {
+  border-right: black solid 4px;
+}
+
 .row1 h2 {
   font-size: 4em;
   width: 10%;
@@ -132,8 +136,8 @@ a:active {
 }
 
 .row2 {
-  border-left: var(--back) solid 4px;
-  padding: 0px 1.2%;
+  /* border-left: var(--back) solid 4px; */
+  margin-left: 40px;
   font-size: 1.2em;
 }
 
@@ -142,14 +146,18 @@ a:active {
 .work-items {
   display: flex;
   height: auto;
-  width: 100vw;
-  border-left: 4px solid var(--back);
+  width: 80vw;
   margin-left: 20px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
+
+#work-header {
+  margin-right: 10px;
+}
+
 
 .col1 {
   flex: 1 1 100%;
@@ -173,6 +181,8 @@ a:active {
   border: 3px solid var(--sea);
   flex-shrink: 0;
 }
+
+/* project blue boxes */
 .project-info {
   background-color: var(--sea);
   position: sticky;
@@ -202,6 +212,8 @@ a:active {
   font-weight: 600;
   color: rgb(24, 23, 23);
 }
+
+/* project box P tag */
 .code-info {
   text-align: left;
   margin-left: 7px;
@@ -220,4 +232,17 @@ a:active {
   position: sticky;
   margin-bottom: 10px;
   padding: 4px;
+}
+.row-work{
+  display: flex;
+  border-right: solid 4px black;
+  
+  
+  
+}
+.row-work h2 {
+  font-size: 4em;
+  width: 10%;
+  margin-right: 20px;
+  padding-right: 30px;
 }

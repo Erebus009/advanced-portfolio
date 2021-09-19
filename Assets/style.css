@@ -17,10 +17,12 @@
   --white: white;
 }
 
+html,
 body {
-  padding: 0px;
-  margin: 0px;
-  z-index: -5;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 li,
@@ -45,6 +47,7 @@ header {
   padding: 10px 10px;
   background-color: var(--back);
   height: 57px;
+  width: 100%;
 }
 
 header h1 {
@@ -59,7 +62,6 @@ header h1 {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
-
   list-style: none;
   margin: 0;
   margin-right: 100px;
@@ -82,26 +84,26 @@ header h1 {
 /* main background image style */
 
 .back-img {
-  height: 500px;
+  height: 400px;
   width: 100%;
   background-color: violet;
   background: url(back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  min-width: 100%;
   position: relative;
+  min-width: 100%;
 }
 
 /* CSS for bottom right geometric text-box over back img */
 .text-box {
   position: absolute;
-  right: 150px;
+  right: 200px;
   bottom: 40px;
   color: rgb(0, 0, 0);
   font-size: 2rem;
   background-color: var(--sea);
   padding: 2px;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 a:hover {
@@ -119,9 +121,9 @@ a:active {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  width: 75vw;
+  width: 100vw;
   margin-top: 90px;
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 /* container for contact me */
@@ -129,10 +131,9 @@ a:active {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  width: 80vw;
+  width: 90vw;
   margin-top: 90px;
   margin-bottom: 20px;
-  margin-left: 100px;
 }
 
 /* Row css affects the about me section */
@@ -150,52 +151,51 @@ a:active {
 .row2 {
   margin-left: 60px;
   font-size: 1.2em;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
-  width: 60vw;
+  flex-wrap: wrap;
+  width: 70vw;
 }
 
 /* div rows for content */
 .row-contact-2 a {
   color: var(--black);
-  
 }
-.row-contact-2 a:hover{
+.row-contact-2 a:hover {
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
   text-decoration: underline;
   transition: 00.5s;
 }
 
-
-.row-contact-2 {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-}
 .row-contact-1 {
   margin-left: 60px;
   border-right: solid 4px var(--back);
-  width: 232px;
+  width: 231px;
   flex-shrink: 0;
-  
+  min-width: 231px;
 }
 .row-contact-1 h2 {
   font-size: 4em;
 }
 .contact-items {
   display: flex;
-  flex: 1 1 80%;
-  justify-content: space-around;
+  justify-content:space-evenly;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  flex: 1 0 100%;
   
-
+}
+.row-contact-2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  min-width: 85%;
 }
 .contact-items a {
   align-items: center;
-  
 }
 
 /* margin on Me in about and contact */
@@ -208,12 +208,11 @@ a:active {
 .work-items {
   display: flex;
   height: auto;
-  width: 60vw;
+  width: 70vw;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  margin-left: 44px;
+
   flex-direction: row;
-  margin-left: 40px;
 }
 
 .col1 {
@@ -247,7 +246,6 @@ a:active {
   z-index: 3;
   width: 150px;
   margin-top: 400px;
-  
 }
 .project-info-2 {
   flex: 1 1 0%;
@@ -259,7 +257,6 @@ a:active {
   margin-top: 60px;
   position: sticky;
   margin-bottom: 10px;
-
 }
 
 .text-overlay {

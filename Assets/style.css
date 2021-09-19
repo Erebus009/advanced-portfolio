@@ -137,7 +137,7 @@ a:active {
 
 /* Row css affects the about me section */
 .row1 {
-  border-right: black solid 4px;
+  border-right: solid 4px var(--back);
   text-align: center;
   flex-basis: 10%;
 }
@@ -292,7 +292,7 @@ a:active {
 }
 .row-work {
   display: flex;
-  border-right: solid 4px black;
+  border-right: solid 4px var(--back);
   text-align: center;
 }
 .row-work h2 {

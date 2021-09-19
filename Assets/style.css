@@ -124,7 +124,7 @@ to allow all left headers to line up visually.  */
   flex-direction: row;
   width: 100vw;
   margin-top: 90px;
-  margin-left: 100px;
+  margin-left: 60px;
 }
 
 /* container for contact me */
@@ -164,7 +164,7 @@ to allow all left headers to line up visually.  */
 
 /* div rows for contact */
 .row-contact-1 {
-  margin-left: 60px;
+  margin-left: 20px;
   border-right: solid 4px var(--back);
   width: 231px;
   flex-shrink: 0;
@@ -179,8 +179,8 @@ to allow all left headers to line up visually.  */
   text-align: center;
   justify-content: center;
   align-items: center;
-  width: 90%;
-  min-width: 85%;
+  width: 100%;
+  min-width: 50%;
 }
 .row-contact-2 a {
   color: var(--back);
@@ -306,18 +306,19 @@ to allow all left headers to line up visually.  */
   padding: 4px;
 }
 
-@media screen and (min-width: 998px) {
+@media screen and (min-width: 1126px) {
   .top-masterhead {
     display: none;
   }
 }
 
-@media screen and (max-width: 997px) {
+@media screen and (max-width: 1126px) {
   .back-color {
     display: none;
   }
   .top-masterhead {
-    font-size: 5em;
+    display: flex;
+    font-size: 4.5em;
     height: 100px;
     width: 100%;
     z-index: 3;
@@ -328,10 +329,11 @@ to allow all left headers to line up visually.  */
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
+    flex: 1 1 100%;
   }
   .top-masterhead h1 {
     position: relative;
-    left: 35px;
+    left: 30px;
   }
 
   header h1 {
@@ -365,7 +367,6 @@ to allow all left headers to line up visually.  */
     flex-direction: column;
     margin-left: 2px;
     width: 90vw;
-    border-right: white;
   }
   .row1 {
     text-align: left;
@@ -373,14 +374,57 @@ to allow all left headers to line up visually.  */
     color: var(--back);
     padding-bottom: 10px;
     border-right: none;
+    border-bottom: solid 4px var(--back);
+    padding-bottom: 20px;
+    width: 100%;
   }
   .row2 {
-    border-top: solid 4px var(--back);
-    border-right: white;
+    padding-top: 20px;
+    border-right: none;
     width: auto;
     text-align: left;
   }
   .spacer {
     margin: 0px;
+  }
+  .row-work {
+    border-right: none;
+    margin-left: 60px;
+    text-align: left;
+    border-bottom: solid 4px var(--back);
+    padding-bottom: 20px;
+    width: 100%;
+    
+  }
+
+  .work-items {
+    width: 90vw;
+    padding-top: 20px;
+    
+  }
+  .contact-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    width: 90vw;
+  }
+  .row-contact-1 {
+    border-right: none;
+    width: 100%;
+    border-bottom: solid 4px var(--back);
+    padding-bottom: 20px;
+    font-weight: 500;
+  }
+  .spacer2 {
+    margin: 0;
+  }
+  .row-contact-2 {
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    
+  }
+  h2 {
+    font-weight: 600;
   }
 }

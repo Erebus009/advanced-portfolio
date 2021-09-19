@@ -146,6 +146,7 @@ a:active {
 .row1 h2 {
   font-size: 4em;
   margin-right: 24px;
+  color: var(--back);
 }
 
 .row2 {
@@ -159,7 +160,7 @@ a:active {
 
 /* div rows for content */
 .row-contact-2 a {
-  color: var(--black);
+  color: var(--back);
 }
 .row-contact-2 a:hover {
   color: rgb(0, 0, 0);
@@ -177,6 +178,7 @@ a:active {
 }
 .row-contact-1 h2 {
   font-size: 4em;
+  color: var(--back);
 }
 .contact-items {
   display: flex;
@@ -294,6 +296,7 @@ a:active {
 .row-work h2 {
   font-size: 4em;
   width: 186px;
+  color: var(--back);
 }
 
 .row2 a {
@@ -385,13 +388,4 @@ a:active {
   .spacer {
     margin: 0px;
   }
-  
-
-
-
-
-
-
-
-
 }

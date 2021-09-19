@@ -96,7 +96,7 @@ a:active {
   height: 400px;
   width: 100%;
   background-color: violet;
-  background: url(back.jpg);
+  background: url(back.jpg) center center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;

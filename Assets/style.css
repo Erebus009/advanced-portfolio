@@ -173,6 +173,11 @@ to allow all left headers to line up visually.  */
   color: var(--back);
   
 }
+.info{
+  width: 90%;
+  margin: auto;
+  margin-left: 7px;
+}
 
 .row2 {
   margin-left: 60px;

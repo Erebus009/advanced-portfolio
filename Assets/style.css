@@ -226,7 +226,6 @@ to allow all left headers to line up visually.  */
   flex: 1 1 100%;
   min-width: 50%;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
   height: 100px;
 

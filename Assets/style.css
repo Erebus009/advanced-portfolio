@@ -35,10 +35,36 @@ a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
+
+
+
+ul li {
+  margin-right: 0px;
+  margin: 4px;
+}
+
+#contact a {
   text-underline-offset: 10px;
   text-decoration: underline;
+  
 }
+
+.nav a {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 7px;
+  border-bottom: 3px solid var(--sea)
+}
+.nav a:hover{
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 7px;
+  border-bottom: 3px solid var(--white);
+
+}
+
+
+
 
 header {
   display: flex;
@@ -176,11 +202,10 @@ to allow all left headers to line up visually.  */
 }
 .row-contact-2 {
   display: flex;
-  text-align: center;
+  text-align: left;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  min-width: 50%;
+  width: 80vw;
 }
 .row-contact-2 a {
   color: var(--back);
@@ -305,14 +330,99 @@ to allow all left headers to line up visually.  */
   margin-bottom: 10px;
   padding: 4px;
 }
-
-@media screen and (min-width: 1126px) {
-  .top-masterhead {
+@media screen and (max-width: 656px) {
+  .top-masterhead,
+  .top-masterhead h1 {
     display: none;
   }
+
+  .back-color,
+  header h1 {
+    display: none;
+  }
+  header {
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    display: block;
+    flex-flow: nowrap;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 70px;
+
+  }
+  .nav {
+    display: flex;
+    width: 100%;
+    min-width: 100%;
+    justify-content: space-around;
+    
+  }
+  .nav a {
+    padding-right: 3px;
+    font-size: 20px;
+    padding-left: 3px;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+    left: 10px;
+  }
+  .nav a:hover {
+    color: white;
+    padding-right: 3px;
+    font-size: 20px;
+    padding-left: 3px;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+    left: 10px;
+  }
+  .text-box {
+    right: 92px;
+    
+  }
+  .geo {
+    left: 400px;
+    background-color: var(--sea);
+    right: 400px;
+    max-width: 180px;
+    position: static;
+    top: 400px;
+    font-style: italic;
+
+
+  }
+ .content{
+   flex-direction: column;
+   margin: 0;
+   margin-top: 20px;
+   justify-content: center;
+ }
+ .spacer , .spacer2 {
+   margin: 0;
+ }
+.row1 {
+  border-bottom: 4px solid var(--back);
+  width: 90vw;
+  border-right: none;
+  margin: auto;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+.row1 h2{
+  font-size: 2em;
+  color: var(--back);
+  float: left;
+  font-weight: 600;
 }
 
-@media screen and (max-width: 1126px) {
+.row2 {
+  padding-top: 20px;
+  width: 87vw;
+  margin: auto;
+}
+  
+}
+/* Tablet media sizing */
+@media screen and (max-width: 1162px) and (min-width: 670px) {
   .back-color {
     display: none;
   }
@@ -333,7 +443,12 @@ to allow all left headers to line up visually.  */
   }
   .top-masterhead h1 {
     position: relative;
-    left: 30px;
+    left: 28px;
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   header h1 {
@@ -355,7 +470,7 @@ to allow all left headers to line up visually.  */
 
   nav li {
     position: relative;
-    left: 55px;
+    left: 70px;
     text-decoration: none;
   }
   .text-box {
@@ -394,15 +509,15 @@ to allow all left headers to line up visually.  */
     border-bottom: solid 4px var(--back);
     padding-bottom: 20px;
     width: 100%;
-    
   }
 
   .work-items {
     width: 90vw;
     padding-top: 20px;
-    
+    margin-left: 40px;
+    margin-right: 0px;
   }
-  .contact-container{
+  .contact-container {
     display: flex;
     flex-direction: column;
     margin-left: 2px;
@@ -414,6 +529,7 @@ to allow all left headers to line up visually.  */
     border-bottom: solid 4px var(--back);
     padding-bottom: 20px;
     font-weight: 500;
+    margin-left: 60px;
   }
   .spacer2 {
     margin: 0;
@@ -421,10 +537,21 @@ to allow all left headers to line up visually.  */
   .row-contact-2 {
     padding-top: 20px;
     text-align: center;
-    width: 110%;
-    
+    width: 100%;
+    margin-left: 40px;
   }
   h2 {
     font-weight: 600;
   }
 }
+@media screen and (min-width: 1162px){
+
+  .top-masterhead h1 {
+    display: none;
+    height: 100px;
+  }
+
+
+
+}
+  

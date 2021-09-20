@@ -162,7 +162,7 @@ to allow all left headers to line up visually.  */
 /*  affects the about me section */
 .row1 {
   border-right: solid 4px var(--back);
-  width: 186px;
+  width: 190px;
   color: var(--back);
 }
 
@@ -173,6 +173,8 @@ to allow all left headers to line up visually.  */
 }
 .info {
   margin: auto;
+  width: 70vw;
+  margin-right: 190px;
 }
 
 .row2 {

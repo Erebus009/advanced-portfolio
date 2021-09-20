@@ -218,7 +218,7 @@ to allow all left headers to line up visually.  */
   text-decoration: underline;
   transition: 00.5s;
 }
-
+/* desktop display */
 .contact-items {
   display: flex;
   flex: 1 1 90%;
@@ -228,7 +228,6 @@ to allow all left headers to line up visually.  */
   flex-wrap: wrap;
   align-items: center;
   height: 100px;
-
 }
 
 /* margin on {Me} in about me and {ME}in contact mw */
@@ -543,7 +542,6 @@ to allow all left headers to line up visually.  */
     margin-right: 100px;
     height: auto;
     align-items: unset;
-
   }
   .contact-items a {
     margin-right: 35px;

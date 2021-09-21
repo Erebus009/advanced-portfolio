@@ -369,6 +369,9 @@ to allow all left headers to line up visually.  */
   padding-bottom: 2px;
 }
 
+
+/* Mobile screen media query */
+
 @media screen and (max-width: 670px) {
   .top-masterhead,
   .top-masterhead h1 {
@@ -460,8 +463,9 @@ to allow all left headers to line up visually.  */
 
   .row2 {
     padding-top: 20px;
-    width: 87vw;
+    width: 70vw;
     margin: auto;
+    
   }
   .row-work {
     border-bottom: 4px solid var(--back);
@@ -513,7 +517,7 @@ to allow all left headers to line up visually.  */
     margin-left: 20px;
   }
 
-  /* contact info for tablets */
+
   .row-contact-1 {
     border-right: none;
     border-bottom: 4px solid var(--back);
@@ -535,7 +539,7 @@ to allow all left headers to line up visually.  */
     width: 90%;
   }
 
-  /* for mobile */
+
   .contact-items {
     flex-direction: column;
     margin-top: 10px;
@@ -547,12 +551,13 @@ to allow all left headers to line up visually.  */
   }
   .contact-items a {
     margin-right: 35px;
-    margin-left: 0;
+    margin-left: 0px;
     padding-left: 10px;
   }
 }
 
-/* Tablet media sizing */
+/* !!!Tablet media sizing!!! */
+
 @media screen and (max-width: 1162px) and (min-width: 670px) {
   .back-color {
     display: none;
@@ -683,9 +688,13 @@ to allow all left headers to line up visually.  */
     font-weight: 600;
   }
 }
+
+/* removes masterhead when screen size above 1162px */
+
+
 @media screen and (min-width: 1162px) {
   .top-masterhead h1 {
     display: none;
-    height: 100px;
+
   }
 }

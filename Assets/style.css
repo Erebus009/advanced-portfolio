@@ -369,7 +369,6 @@ to allow all left headers to line up visually.  */
   padding-bottom: 2px;
 }
 
-
 /* Mobile screen media query */
 
 @media screen and (max-width: 670px) {
@@ -465,7 +464,6 @@ to allow all left headers to line up visually.  */
     padding-top: 20px;
     width: 70vw;
     margin: auto;
-    
   }
   .row-work {
     border-bottom: 4px solid var(--back);
@@ -517,7 +515,6 @@ to allow all left headers to line up visually.  */
     margin-left: 20px;
   }
 
-
   .row-contact-1 {
     border-right: none;
     border-bottom: 4px solid var(--back);
@@ -538,7 +535,6 @@ to allow all left headers to line up visually.  */
     margin: auto;
     width: 90%;
   }
-
 
   .contact-items {
     flex-direction: column;
@@ -691,10 +687,8 @@ to allow all left headers to line up visually.  */
 
 /* removes masterhead when screen size above 1162px */
 
-
 @media screen and (min-width: 1162px) {
   .top-masterhead h1 {
     display: none;
-
   }
 }

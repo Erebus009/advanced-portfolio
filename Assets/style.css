@@ -447,7 +447,7 @@ to allow all left headers to line up visually.  */
   }
   .row1 {
     border-bottom: 4px solid var(--back);
-    width: 90vw;
+    width: 80vw;
     border-right: none;
     margin: auto;
     padding-bottom: 10px;
@@ -462,7 +462,7 @@ to allow all left headers to line up visually.  */
 
   .row2 {
     padding-top: 20px;
-    width: 70vw;
+    width: 74vw;
     margin: auto;
   }
   .row-work {
@@ -482,14 +482,17 @@ to allow all left headers to line up visually.  */
     text-align: left;
     width: 100%;
   }
+  /* affects project images in moblie  */
   .work-items {
     padding-top: 20px;
-    width: 90%;
+    width: 80vw;
     flex-direction: column;
     margin: 0;
     padding: 0;
     flex-wrap: nowrap;
     padding-top: 20px;
+    margin: auto;
+    margin-right: 25px;
   }
   .col1 img {
     height: 140px;

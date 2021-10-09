@@ -17,4 +17,4 @@
   <ul> 3. Overlay only img and not whole div box. </ul>
   
   <p> Overall the project took 2 days (mostly reading doucmentation haha.) 
-  I gained more confidence in the langs of HMTL and CSS from this and found knwoing what names of rules to look up made the whole ordeal not as diffuclt as I thought and I gained a huge influx of new skills from this project. </p>
+  I gained more confidence in the langs of HMTL and CSS from this and found knwoing what names of rules to look up made the whole ordeal easy then I thought and I gained a huge influx of new skills from this project. </p>

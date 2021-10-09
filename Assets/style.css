@@ -509,8 +509,17 @@ to allow all left headers to line up visually.  */
     background-color: var(--sea);
     z-index: 6;
     position: absolute;
-    margin-top: 70px;
+    margin-top: 50px;
     padding: 2px;
+    width: 264px;
+    
+    
+  }
+  .project-info-2{
+    width: 263px;
+    height: 100px;
+    margin-top: 55px; 
+   
   }
   .contact-container {
     flex-direction: column;

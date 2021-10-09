@@ -78,6 +78,8 @@ header h1 {
   margin-left: 80px;
   padding: 15px 0px 15px 0px;
   z-index: 1;
+  
+  
 }
 /* a tags hover white and show when clicked */
 a:hover {
@@ -319,7 +321,6 @@ to allow all left headers to line up visually.  */
 }
 
 .project-info-2 {
-  width: 150px;
   background-color: var(--sea);
   z-index: 6;
   position: absolute;
@@ -339,7 +340,6 @@ to allow all left headers to line up visually.  */
 /* project blue text boxes */
 .project-info {
   background-color: var(--sea);
-  width: 150px;
   z-index: 6;
   position: absolute;
   margin-top: 400px;
@@ -506,7 +506,6 @@ to allow all left headers to line up visually.  */
   }
   .project-info {
     background-color: var(--sea);
-    width: 150px;
     z-index: 6;
     position: absolute;
     margin-top: 70px;

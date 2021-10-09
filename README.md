@@ -5,9 +5,10 @@
 <br>
 <p> Website Preview. </p>
 
-![image](https://user-images.githubusercontent.com/12164234/134228852-1af08ec7-25d9-429f-9b2e-34a80c3b18dc.png)
+![image](https://user-images.githubusercontent.com/12164234/136667490-4e1e32a9-b82a-4dff-83f6-a74ac75dc0ca.png)
 
-![image](https://user-images.githubusercontent.com/12164234/134230314-dd11a904-6ecb-4051-8368-12fea6c339f1.png)
+
+
 
 
 <h1> Problems Faced </h1>

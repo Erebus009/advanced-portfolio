@@ -172,6 +172,7 @@ to allow all left headers to line up visually.  */
   font-size: 4em;
   margin-right: 24px;
   color: var(--back);
+  text-align: right;
 }
 .info {
   margin: auto;

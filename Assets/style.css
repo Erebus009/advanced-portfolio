@@ -120,7 +120,7 @@ a:active {
   height: 400px;
   width: 100%;
   background-color: violet;
-  background: url(back.jpg) center center;
+  background: url(card..jpg) center center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -426,6 +426,7 @@ to allow all left headers to line up visually.  */
   }
   .text-box {
     right: 92px;
+    
   }
   .geo {
     left: 400px;
@@ -610,7 +611,7 @@ to allow all left headers to line up visually.  */
     text-decoration: none;
   }
   .text-box {
-    font-size: 3em;
+    font-size: 2em;
     right: 30px;
   }
   .content {
